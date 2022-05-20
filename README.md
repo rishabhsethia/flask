@@ -20,8 +20,9 @@ Azure Blob Storage is chosen as File Server - for reliability, scalability, read
 4) Image(bytes) is uploaded to Azure Blob
 5) Image(blolb url), user info is stored in sql server
 
-download Image Flow : 
+Download Image Flow : 
 
 1) User Image URL are retreived from Sql Server
 2) These Url are sent to User in api Request
+3) Images Are cached in browser(multiple request of same images, would be server from browser cache)
 
