@@ -24,5 +24,5 @@ Download Image Flow :
 
 1) User Image URL are retreived from Sql Server
 2) These Url are sent to User in api Request
-3) Images Are cached in browser(multiple request of same images, would be server from browser cache)
+3) Images Are cached in browser(multiple request of same images, would be served from browser cache)
 
